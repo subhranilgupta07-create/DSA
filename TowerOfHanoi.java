@@ -5,7 +5,7 @@ public class TowerOfHanoi
     public static void main(String Args[])
     {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the number of disks: ");
+        System.out.println("Enter number of disks: ");
         int n = in.nextInt();
         TowerofHanoi(n, "S", "H", "D");
     }
